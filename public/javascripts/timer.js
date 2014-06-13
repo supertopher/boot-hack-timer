@@ -16,7 +16,7 @@ setInterval(function(){
   minutes = parseInt(seconds_left / 60);
   seconds = parseInt(seconds_left % 60);
 
-  countdown.innerHTML = days + " Days " + hours + " Hours " + minutes +
-  " Minutes " + seconds + " Seconds";
+  countdown.innerHTML = "Time until Final Presentations: " + days + " Days " +
+  hours + " Hours " + minutes + " Minutes " + seconds + " Seconds";
 
 }, 1000);
