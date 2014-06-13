@@ -1,9 +1,6 @@
 var target_date  = new Date("June 20, 2014").getTime();
 var days, hours, minutes, seconds;
 
-
-
-
 setInterval(function(){
   var countdown = document.getElementById("countdown");
   var current_date = new Date().getTime();
