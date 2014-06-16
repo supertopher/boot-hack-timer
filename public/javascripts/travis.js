@@ -1,6 +1,6 @@
 request = new XMLHttpRequest();
 
-document.addEventListener('DOMContentLoaded', function(){
+// document.addEventListener('DOMContentLoaded', function(){
 
 
   request.open("GET", "http://api.travis-ci.org/", true);
@@ -36,4 +36,4 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // request.send();
 
-});
+// });
