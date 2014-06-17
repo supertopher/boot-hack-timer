@@ -2,10 +2,10 @@ doctype html
 html
   head
     title= title
+    script(src="//code.jquery.com/jquery-1.11.0.min.js")
     -each script in scripts
       script(type='text/javascript', src= script)
     link(rel='stylesheet', href='/stylesheets/style.css')
-    script(src="//code.jquery.com/jquery-1.11.0.min.js")
-    
+
   body
     block content
